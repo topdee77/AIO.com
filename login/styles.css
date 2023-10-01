@@ -1,4 +1,3 @@
-/* Custom button styles */
 .custom-button {
     position: absolute;
     bottom: 20px;
@@ -10,51 +9,59 @@
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-/* Define a hover effect for the custom button (optional) */
+/* Define a hover effect (optional) */
 .custom-button:hover {
     background-color: #0056b3; /* Change background color on hover */
 }
 
+body {
+    text-align: center;
+    font-family: 'Futura', sans-serif;
+    background-color: #121212; /* Set the background color to black */
+            color: #FFFFFF; /* Set the text color to white */
+}
 
-/* Container styles */
+
 .container {
     margin-top: 50px;
 }
 
-/* Title text styles */
+body {
+    text-align: center; /* Center-align the content in the body */
+    font-family: 'Futura', sans-serif; /* Specify a font family for the text */
+}
+
+.container {
+    margin-top: 50px;
+}
+
 .title-text {
     margin-bottom: 20px; /* Add margin to push the h2 down */
 }
 
-/* Icon button styles */
 .icon-button {
     display: inline-block;
-    margin-top: 40px;
-    margin: 10px;
+    margin: 20px; /* Add margin to create spacing between icons */
     vertical-align: top; /* Align the icons to the top of the row */
     width: 100%; /* Set a width to limit three icons per row */
     max-width: 200px; /* Limit the maximum width of each icon button */
 }
 
-/* Icon container styles */
 .icon-container {
     text-align: center; /* Center-align the icon and text */
 }
 
-/* Icon image styles */
 .icon-container img {
     max-width: 100px; /* Limit the maximum width of the icon image */
     height: auto; /* Maintain the aspect ratio of the image */
 }
 
-/* Icon text styles */
 .icon-container p {
     margin-top: 10px; /* Add margin between the icon and text */
     font-weight: bold; /* Make the text bold */
     font-size: 16px; /* Set the font size for the text */
 }
 
-/* Logo container styles */
 .logo-container {
     position: absolute;
     top: 20px;
@@ -64,7 +71,6 @@
     z-index: 999;
 }
 
-/* Sliding text styles */
 .sliding-text {
     margin-top: 150px;
 }
