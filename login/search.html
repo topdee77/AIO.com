@@ -3,7 +3,7 @@
 <head>
     <title>AIO (All in one)</title>
     <link rel="stylesheet" href="https://topdee77.github.io/AIO.com/login/styles.css">
-    <!--link rel="stylesheet" href="/home/top/login/dark-mode.css"-->
+    
     <style>
         body {
             text-align: center; /* Center-align the content in the body */
@@ -76,11 +76,6 @@
         </a>
     </div>
 
-    <!--div class="dark-mode-toggle-container">
-        <input type="checkbox" id="darkModeToggle">
-        <label for="darkModeToggle">Dark Mode</label>
-    </div-->
-
     <div class="container">
         <h1 class="title-text">Search Engine 🔍</h1>
         <h2>Select your preferred search engine 🔍</h2>
@@ -123,35 +118,5 @@
         </div>
         
     </div>
-
-    <script>
-        const darkModeToggle = document.getElementById('darkModeToggle');
-        const body = document.body; // Get the body element
-    
-        // Check if the user has a preference for dark mode in local storage
-        const isDarkMode = localStorage.getItem('darkMode') === 'true';
-    
-        // Set the initial state of the checkbox based on the preference
-        darkModeToggle.checked = isDarkMode;
-    
-        // Function to toggle dark mode
-        function toggleDarkMode() {
-            if (darkModeToggle.checked) {
-                body.classList.add('dark-mode');
-                localStorage.setItem('darkMode', 'true');
-            } else {
-                body.classList.remove('dark-mode');
-                localStorage.setItem('darkMode', 'false');
-            }
-        }
-    
-        // Add event listener to the checkbox
-        darkModeToggle.addEventListener('change', toggleDarkMode);
-    
-        // Apply dark mode on page load if it was previously set
-        if (isDarkMode) {
-            body.classList.add('dark-mode');
-        }
-    </script>
 </body>
 </html>
