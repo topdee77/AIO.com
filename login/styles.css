@@ -9,6 +9,36 @@
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+/* Dark mode toggle container */
+.dark-mode-toggle-container {
+    position: fixed;
+    top: 20px; /* Adjust the top position for the desired vertical alignment */
+    right: 20px; /* Adjust the right position for the top-right corner */
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Dark mode toggle label */
+label[for="darkModeToggle"] {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF; /* Text color for the label */
+}
+
+/* Dark mode toggle checkbox */
+#darkModeToggle {
+    transform: scale(1.5);
+    cursor: pointer;
+    position: absolute;
+    left: -9999px;
+}
+
+
 /* Define a hover effect (optional) */
 .custom-button:hover {
     background-color: #0056b3; /* Change background color on hover */
