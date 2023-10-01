@@ -41,7 +41,8 @@ body {
 
 .icon-button {
     display: inline-block;
-    margin: 20px; /* Add margin to create spacing between icons */
+    margin-top: 40px;
+    margin: 10px;
     vertical-align: top; /* Align the icons to the top of the row */
     width: 100%; /* Set a width to limit three icons per row */
     max-width: 200px; /* Limit the maximum width of each icon button */
