@@ -1,22 +1,3 @@
-/* Default (light) mode styles */
-body {
-    background-color: #FFFFFF; /* Set the background color to white */
-    color: #000000; /* Set the text color to black */
-}
-
-/* Dark mode styles */
-body.dark-mode {
-    background-color: #121212; /* Set the background color to black */
-    color: #FFFFFF; /* Set the text color to white */
-}
-
-/* Add other dark mode styles here */
-
-/* Example: change link color in dark mode */
-body.dark-mode a {
-    color: #FFD700; /* Set link color to gold in dark mode */
-}
-
 /* Custom button styles */
 .custom-button {
     position: absolute;
@@ -29,41 +10,11 @@ body.dark-mode a {
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-/* Dark mode toggle container styles */
-.dark-mode-toggle-container {
-    position: fixed;
-    top: 20px; /* Adjust the top position for the desired vertical alignment */
-    right: 20px; /* Adjust the right position for the top-right corner */
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-/* Dark mode toggle label styles */
-label[for="darkModeToggle"] {
-    margin-left: 5px;
-    font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
-    color: #FFFFFF; /* Text color for the label */
-}
-
-/* Dark mode toggle checkbox styles */
-#darkModeToggle {
-    transform: scale(1.5);
-    cursor: pointer;
-    position: absolute;
-    left: -9999px;
-}
-
 /* Define a hover effect for the custom button (optional) */
 .custom-button:hover {
     background-color: #0056b3; /* Change background color on hover */
 }
 
-/* Rest of your existing styles... */
 
 /* Container styles */
 .container {
