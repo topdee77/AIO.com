@@ -9,6 +9,14 @@
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+body {
+    background-image: url('https://topdee77.github.io/AIO.com/login/background.png');
+    background-size: cover; /* Scale the background image to cover the entire container */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background image */
+    color: #000000;
+}
+
 /* Define a hover effect (optional) */
 .custom-button:hover {
     background-color: #0056b3; /* Change background color on hover */
