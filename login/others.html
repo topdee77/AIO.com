@@ -1,0 +1,119 @@
+<head>
+    <title>AIO (All in one)</title>
+    <link rel="stylesheet" href="/home/top/login/styles.css">
+
+    <style>
+        body {
+            text-align: center; /* Center-align the content in the body */
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .title-text {
+            margin-bottom: 20px; /* Add margin to push the h2 down */
+        }
+
+        .icon-button {
+            display: inline-block;
+            margin: 10px; /* Add margin to create spacing between icons */
+            vertical-align: top; /* Align the icons to the top of the row */
+            width: 150px; /* Set a fixed width for each icon container */
+        }
+
+        .icon-container {
+            text-align: center; /* Center-align the icon and text */
+        }
+
+        /* Flex container for icons */
+        .icon-row {
+            display: flex;
+            flex-wrap: wrap; /* Wrap icons to the next row if they don't fit */
+            justify-content: center; /* Center-align icons horizontally */
+        }
+
+        /* Style for individual icon */
+        .icon-item {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .sliding-text {
+        position: fixed; /* Fixed position so it stays at the bottom of the viewport */
+        bottom: 0; /* Align the text to the bottom */
+        right: 0; /* Start from the right edge */
+        width: 100%; /* Full width */
+        padding: 50px; /* Add padding for readability */
+        animation: slideText 30s linear infinite; /* Apply the animation */
+    }
+    /* Keyframes animation to make the text slide */
+    @keyframes slideText {
+        0% {
+            transform: translateX(100%); /* Start from the left edge */
+        }
+        100% {
+            transform: translateX(-100%); /* Slide to the right edge */
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+    <h1>Others</h1>
+    <h2>Go visiting 💚</h2>
+
+    <div class="logo-container">
+        <a>
+            <img src="/home/top/login/aio-logo.png">
+        </a>
+    </div>
+
+    <div class="icon-row">
+        <div class="icon-item">
+            <a href="https://www.veed.io">
+                <img src="/home/top/login/veed.png" alt="Veed.IO">
+                <p>Veed.IO</p>
+            </a>
+        </div>
+    
+
+    
+        <div class="icon-item">
+            <a href="https://www.ome.tv">
+                <img src="/home/top/login/ome-tv.png" alt="Ome TV">
+                <p>Ome tv</p>
+            </a>
+        </div>
+    
+
+    
+        <div class="icon-item">
+            <a href="https://www.omegle.com">
+                <img src="/home/top/login/omegle.png" alt="Omegle">
+                <p>Omegle</p>
+            </a>
+        </div>
+    
+
+    
+        <div class="icon-item">
+            <a href="https://www.mail.google.com">
+                <img src="/home/top/login/gmail.png" alt="Gmail">
+                <p>Gmail</p>
+            </a>
+        </div>
+    
+
+    
+        <div class="icon-item">
+            <a href="https://www.shodan.io">
+                <img src="/home/top/login/shodan.png" alt="Shodan">
+                <p>Shodan.io</p>
+            </a>
+        </div>
+    
+    </div>
+
+</body>

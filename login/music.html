@@ -1,0 +1,99 @@
+<head>
+    <title>AIO (All in one)</title>
+    <link rel="stylesheet" href="/home/top/login/styles.css">
+
+    <style>
+        body {
+            text-align: center; /* Center-align the content in the body */
+            background-color: #121212; /* Set the background color to black */
+            color: #FFFFFF; /* Set the text color to white */
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .title-text {
+            margin-bottom: 20px; /* Add margin to push the h2 down */
+        }
+
+        .icon-button {
+            display: inline-block;
+            margin: 10px; /* Add margin to create spacing between icons */
+            vertical-align: top; /* Align the icons to the top of the row */
+            width: 150px; /* Set a fixed width for each icon container */
+        }
+
+        .icon-container {
+            text-align: center; /* Center-align the icon and text */
+        }
+
+        /* Flex container for icons */
+        .icon-row {
+            display: flex;
+            flex-wrap: wrap; /* Wrap icons to the next row if they don't fit */
+            justify-content: center; /* Center-align icons horizontally */
+        }
+
+        /* Style for individual icon */
+        .icon-item {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .sliding-text {
+        position: fixed; /* Fixed position so it stays at the bottom of the viewport */
+        bottom: 0; /* Align the text to the bottom */
+        right: 0; /* Start from the right edge */
+        width: 100%; /* Full width */
+        padding: 50px; /* Add padding for readability */
+        animation: slideText 30s linear infinite; /* Apply the animation */
+    }
+    /* Keyframes animation to make the text slide */
+    @keyframes slideText {
+        0% {
+            transform: translateX(100%); /* Start from the left edge */
+        }
+        100% {
+            transform: translateX(-100%); /* Slide to the right edge */
+        }
+    }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>Music 🎵</h1>
+    <h2>Unwind with some music 🎶</h2>
+
+    <div class="logo-container">
+        <a>
+            <img src="/home/top/login/aio-logo.png">
+        </a>
+    </div>
+
+    <div class="icon-row">
+        <div class="icon-item">
+            <a href="https://www.Audiomack.com">
+                <img src="/home/top/login/audiomack.png" alt="Audiomack">
+                <p>Audiomack</p>
+            </a>
+        </div>
+
+        <div class="icon-item">
+            <a href="https://www.spotify.com">
+                <img src="/home/top/login/spotify.png" alt="spotify">
+                <p>Spotify</p>
+            </a>
+        </div>
+
+        <div class="sliding-text">
+            <a href="https://wa.me/+22943455259">
+                <p>This is still a prototype, more to come your way, you're lucky to be part of our first users, Click here for support: https://wa.me/+22943455259</p>
+                <p> Want to personal AIO? Want your own personal changes to the website? support is a click away; https://wa.me/+22943455259</p>
+            </a>
+        </div>
+    </div>
+
+</body>
