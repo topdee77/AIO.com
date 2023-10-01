@@ -4,9 +4,6 @@
     right: 20px;
     z-index: 999;
     display: inline-block;
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #007bff; /* Define the button background color */
-    color: #fff; /* Define the text color */
     border: none; /* Remove button border */
     border-radius: 5px; /* Add border-radius for rounded corners */
     cursor: pointer; /* Change cursor to pointer on hover */
