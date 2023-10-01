@@ -1,3 +1,23 @@
+/* Default (light) mode styles */
+body {
+    background-color: #FFFFFF; /* Set the background color to white */
+    color: #000000; /* Set the text color to black */
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212; /* Set the background color to black */
+    color: #FFFFFF; /* Set the text color to white */
+}
+
+/* Add other dark mode styles here */
+
+/* Example: change link color in dark mode */
+body.dark-mode a {
+    color: #FFD700; /* Set link color to gold in dark mode */
+}
+
+/* Custom button styles */
 .custom-button {
     position: absolute;
     bottom: 20px;
@@ -9,7 +29,7 @@
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-/* Dark mode toggle container */
+/* Dark mode toggle container styles */
 .dark-mode-toggle-container {
     position: fixed;
     top: 20px; /* Adjust the top position for the desired vertical alignment */
@@ -21,7 +41,7 @@
     transition: opacity 0.5s ease-in-out;
 }
 
-/* Dark mode toggle label */
+/* Dark mode toggle label styles */
 label[for="darkModeToggle"] {
     margin-left: 5px;
     font-weight: bold;
@@ -30,7 +50,7 @@ label[for="darkModeToggle"] {
     color: #FFFFFF; /* Text color for the label */
 }
 
-/* Dark mode toggle checkbox */
+/* Dark mode toggle checkbox styles */
 #darkModeToggle {
     transform: scale(1.5);
     cursor: pointer;
@@ -38,37 +58,24 @@ label[for="darkModeToggle"] {
     left: -9999px;
 }
 
-
-/* Define a hover effect (optional) */
+/* Define a hover effect for the custom button (optional) */
 .custom-button:hover {
     background-color: #0056b3; /* Change background color on hover */
 }
 
-body {
-    text-align: center;
-    font-family: 'Futura', sans-serif;
-    background-color: #121212; /* Set the background color to black */
-            color: #FFFFFF; /* Set the text color to white */
-}
+/* Rest of your existing styles... */
 
-
+/* Container styles */
 .container {
     margin-top: 50px;
 }
 
-body {
-    text-align: center; /* Center-align the content in the body */
-    font-family: 'Futura', sans-serif; /* Specify a font family for the text */
-}
-
-.container {
-    margin-top: 50px;
-}
-
+/* Title text styles */
 .title-text {
     margin-bottom: 20px; /* Add margin to push the h2 down */
 }
 
+/* Icon button styles */
 .icon-button {
     display: inline-block;
     margin-top: 40px;
@@ -78,21 +85,25 @@ body {
     max-width: 200px; /* Limit the maximum width of each icon button */
 }
 
+/* Icon container styles */
 .icon-container {
     text-align: center; /* Center-align the icon and text */
 }
 
+/* Icon image styles */
 .icon-container img {
     max-width: 100px; /* Limit the maximum width of the icon image */
     height: auto; /* Maintain the aspect ratio of the image */
 }
 
+/* Icon text styles */
 .icon-container p {
     margin-top: 10px; /* Add margin between the icon and text */
     font-weight: bold; /* Make the text bold */
     font-size: 16px; /* Set the font size for the text */
 }
 
+/* Logo container styles */
 .logo-container {
     position: absolute;
     top: 20px;
@@ -102,6 +113,7 @@ body {
     z-index: 999;
 }
 
+/* Sliding text styles */
 .sliding-text {
     margin-top: 150px;
 }
