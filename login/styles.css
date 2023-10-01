@@ -1,4 +1,8 @@
 .custom-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
     display: inline-block;
     padding: 10px 20px; /* Adjust padding as needed */
     background-color: #007bff; /* Define the button background color */
@@ -6,8 +10,6 @@
     border: none; /* Remove button border */
     border-radius: 5px; /* Add border-radius for rounded corners */
     cursor: pointer; /* Change cursor to pointer on hover */
-    text-decoration: none; /* Remove default text decoration */
-    font-size: 16px; /* Define the font size */
 }
 
 /* Define a hover effect (optional) */
@@ -74,28 +76,4 @@ body {
 
 .sliding-text {
     margin-top: 150px;
-}
-
-
-/* Style for the dark mode toggle container */
-.dark-mode-toggle-container {
-    position: absolute;
-    top: 20px; /* Adjust the top position as needed */
-    right: 20px; /* Adjust the right position as needed */
-    display: flex;
-    align-items: center;
-    z-index: 999; /* Ensure it's on top of other content */
-}
-
-/* Style for the dark mode toggle label */
-label[for="darkModeToggle"] {
-    margin-left: 5px; /* Add some space between the checkbox and label */
-    font-weight: bold;
-    font-size: 16px;
-}
-
-/* Style for the checkbox itself (optional) */
-#darkModeToggle {
-    transform: scale(1.5); /* Increase checkbox size (adjust as needed) */
-    cursor: pointer;
 }
