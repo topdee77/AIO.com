@@ -133,19 +133,6 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
-@media (max-width: 768px) {
-    .icon-container img {
-        max-width: 80%; /* Reduce maximum width on smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .icon-container img {
-        max-width: 60%; /* Further reduce maximum width on even smaller screens */
-    }
-}
-
-
 .icon-container p {
     margin-top: 10px; /* Add margin between the icon and text */
     font-weight: bold; /* Make the text bold */
