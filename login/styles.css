@@ -82,7 +82,10 @@ body {
     padding: 10px; /* Add padding to the buttons for better spacing */
     cursor: pointer;
 }
-
+    
+.icon-button p {
+    padding: 0;
+}
     @media (max-width: 768px) {
         .icon-button {
             font-size: 0.875rem;
@@ -94,12 +97,14 @@ body {
         }
         
         .icon-container p {
-        font-size: 0.75rem; /* Adjust font size for smaller screens */
+            padding: 0;
+            font-size: 0.75rem; /* Adjust font size for smaller screens */
         }
         
         .sliding-text {
             margin-top: 100px; /* Adjust for smaller screens */
             font-size: 1.2rem; /* Adjust font size for smaller screens */
+            font-weight: bold;
         }
     }
 
@@ -118,6 +123,7 @@ body {
     margin-top: 10px; /* Add margin between the icon and text */
     font-weight: bold; /* Make the text bold */
     font-size: 16px; /* Set the font size for the text */
+    padding: 0;
 }
 
 /*.logo-container {
@@ -130,9 +136,10 @@ body {
 }*/
 
 .sliding-text {
-    margin-top: 85%;
+    margin-top: 80%;
 }
 
 .sliding-text p {
+    font-weight: bold;
     color: #FFD700;
 }
