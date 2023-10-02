@@ -23,8 +23,14 @@ body {
     padding: 0; 
 }
 
+/* Media query for screens larger than a certain width (e.g., laptops) */
+@media (min-width: 768px) {
+    body {
+        background-image: url('https://topdee77.github.io/AIO.com/login/background.jpeg'); /* Use a different image for larger screens */
+    }
+
 a {
-    color: #0056b3; /* Change link color */
+    color: #FFD700; /* Change link color */
     text-decoration: none; /* Remove underlines from links */
 }
 
