@@ -132,3 +132,7 @@ body {
 .sliding-text {
     margin-top: 85%;
 }
+
+.sliding-text p {
+    color: #FFD700;
+}
