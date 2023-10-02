@@ -82,10 +82,27 @@ body {
     padding: 10px; /* Add padding to the buttons for better spacing */
     cursor: pointer;
 }
-    
+
 .icon-button p {
     padding: 0;
 }
+
+.icon-item {
+    margin: 20px;
+    vertical-align: top;
+    max-width: 30%;
+    background-color: #121212; /* Set a background color for icon buttons */
+    font-size: 1rem;
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 0;
+    cursor: pointer; 
+}
+
+.icon-item p {
+    padding: 0;
+}
+    
     @media (max-width: 768px) {
         .icon-button {
             font-size: 0.875rem;
