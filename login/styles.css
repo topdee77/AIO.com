@@ -1,5 +1,5 @@
 .custom-button {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 999;
@@ -7,6 +7,9 @@
     border: none; /* Remove button border */
     border-radius: 5px; /* Add border-radius for rounded corners */
     cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #0056b3; /* Add a background color for better visibility */
+    color: #fff; /* Set text color to white */
+    padding: 10px 20px;
 }
 
 body {
@@ -14,7 +17,15 @@ body {
     background-size: cover; /* Scale the background image to cover the entire container */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixed background image */
-    color: #000000;
+    color: #fff; 
+    font-family: 'Futura', sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+a {
+    color: #0056b3; /* Change link color */
+    text-decoration: none; /* Remove underlines from links */
 }
 
 /* Define a hover effect (optional) */
@@ -22,11 +33,16 @@ body {
     background-color: #0056b3; /* Change background color on hover */
 }
 
+.custom-button:active {
+    background-color: #0056b3;
+}
+
 body {
     text-align: center;
     font-family: 'Futura', sans-serif;
     background-color: #121212; /* Set the background color to black */
-            color: #FFFFFF; /* Set the text color to white */
+    font-size: 16px;
+    color: #FFFFFF; /* Set the text color to white */
 }
 
 
@@ -37,6 +53,7 @@ body {
 body {
     text-align: center; /* Center-align the content in the body */
     font-family: 'Futura', sans-serif; /* Specify a font family for the text */
+    font-size: 16px;
 }
 
 .container {
@@ -49,14 +66,41 @@ body {
 
 .icon-button {
     display: inline-block;
-    margin: 20px; /* Add margin to create spacing between icons */
-    vertical-align: top; /* Align the icons to the top of the row */
-    width: 100%; /* Set a width to limit three icons per row */
-    max-width: 200px; /* Limit the maximum width of each icon button */
+    margin: 20px;
+    vertical-align: top;
+    max-width: 30%;
+    background-color: #121212; /* Set a background color for icon buttons */
+    font-size: 1rem;
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 10px; /* Add padding to the buttons for better spacing */
+    cursor: pointer;
 }
+
+    @media (max-width: 768px) {
+        .icon-button {
+            font-size: 0.875rem;
+            max-width: 30%; /* Adjust the max-width as needed */
+        }
+
+        body {
+        font-size: 14px; /* Adjust base font size for smaller screens */
+        }
+        
+        .icon-container p {
+        font-size: 0.75rem; /* Adjust font size for smaller screens */
+        }
+        
+        .sliding-text {
+            margin-top: 100px; /* Adjust for smaller screens */
+            font-size: 1.2rem; /* Adjust font size for smaller screens */
+        }
+    }
+
 
 .icon-container {
     text-align: center; /* Center-align the icon and text */
+    font-size: 0.875rem;
 }
 
 .icon-container img {
