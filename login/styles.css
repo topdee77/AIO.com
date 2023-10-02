@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 999;
+    z-index: 1;
     display: inline-block;
     border: none; /* Remove button border */
     border-radius: 5px; /* Add border-radius for rounded corners */
@@ -114,14 +114,14 @@ body {
     font-size: 16px; /* Set the font size for the text */
 }
 
-.logo-container {
+/*.logo-container {
     position: absolute;
     top: 20px;
     left: 20px;
     display: flex;
     align-items: center;
     z-index: 999;
-}
+}*/
 
 .sliding-text {
     margin-top: 150px;
