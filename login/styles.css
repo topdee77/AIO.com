@@ -77,7 +77,6 @@ body {
     background-color: #121212; /* Set a background color for icon buttons */
     font-size: 1rem;
     border: none; /* Remove button border */
-    border-radius: 5px; /* Add border-radius for rounded corners */
     cursor: pointer;
 }
 
@@ -92,7 +91,6 @@ body {
     background-color: #121212; /* Set a background color for icon buttons */
     font-size: 1rem;
     border: none; /* Remove button border */
-    border-radius: 5px; /* Add border-radius for rounded corners */
     cursor: pointer; 
 }
 
