@@ -9,7 +9,6 @@
     cursor: pointer; /* Change cursor to pointer on hover */
     background-color: #0056b3; /* Add a background color for better visibility */
     color: #fff; /* Set text color to white */
-    padding: 10px 20px;
 }
 
 body {
@@ -79,7 +78,6 @@ body {
     font-size: 1rem;
     border: none; /* Remove button border */
     border-radius: 5px; /* Add border-radius for rounded corners */
-    padding: 10px; /* Add padding to the buttons for better spacing */
     cursor: pointer;
 }
 
@@ -95,7 +93,6 @@ body {
     font-size: 1rem;
     border: none; /* Remove button border */
     border-radius: 5px; /* Add border-radius for rounded corners */
-    padding: 0;
     cursor: pointer; 
 }
 
