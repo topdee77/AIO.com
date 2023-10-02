@@ -137,8 +137,8 @@ body {
 
 .logo-container {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 2px;
+    left: 2px;
     display: flex;
     align-items: center;
     z-index: -999;
